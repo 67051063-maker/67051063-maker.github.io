@@ -1,17 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="th">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Profile - Pleng</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>67051063 Pinyada Lugpong</h1>
-    <img src="999.jpg" alt="">
-    <div class="conteiner"><button onclick="showAlert()"><h1>Action</h1></button>
-    </div>
-</body>
-<script src="script.js" ></script>
+    <div class="card" id="profileCard">
+        <div class="profile-header">
+            <div class="image-wrapper">
+                <img src="999.jpg" alt="Pleng's Profile">
+            </div>
+            <h1>Pinyada Lugpong</h1>
+            <span class="nickname">" เพลง (Pleng) "</span>
+        </div>
 
+        <div class="info-content">
+            <div class="info-row">
+                <span class="label"><i class="fa-solid fa-id-card"></i> รหัสนักศึกษา</span>
+                <span class="value">67051063</span>
+            </div>
+            <div class="info-row">
+                <span class="label"><i class="fa-solid fa-cake-candles"></i> อายุ</span>
+                <span class="value">20 ปี</span>
+            </div>
+            <div class="info-row">
+                <span class="label"><i class="fa-solid fa-graduation-cap"></i> ชั้นปี</span>
+                <span class="value">ปีที่ 2</span>
+            </div>
+            <div class="info-row column">
+                <span class="label"><i class="fa-solid fa-book-open"></i> หลักสูตรควบ 2 ปริญญา</span>
+                <div class="value-group">
+                    <p><i class="fa-solid fa-atom" style="color: #84a5c9;"></i> วท.บ. (ฟิสิกส์อุตสาหกรรม)</p>
+                    <p><i class="fa-solid fa-microchip" style="color: #84a5c9;"></i> วิศ.บ. (วิศวกรรมระบบไอโอทีและสารสนเทศ)</p>
+                </div>
+            </div>
+            <p class="campus">สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
 </html>
